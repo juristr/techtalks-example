@@ -1,0 +1,8 @@
+{
+  "name": "reactapp",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/reactapp/src",
+  "projectType": "application",
+  "targets": {},
+  "tags": []
+}
