@@ -1,0 +1,7 @@
+{
+  "name": "products-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/products-e2e/src",
+  "targets": {},
+  "implicitDependencies": ["products"]
+}

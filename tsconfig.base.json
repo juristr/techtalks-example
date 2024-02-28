@@ -14,7 +14,35 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@techtalks/design-system/buttons": [
+        "libs/shared/design-system/buttons/src/index.ts"
+      ],
+      "@techtalks/orders/data-access-orders": [
+        "libs/orders/data-access-orders/src/index.ts"
+      ],
+      "@techtalks/orders/feat-create-order": [
+        "libs/orders/feat-create-order/src/index.ts"
+      ],
+      "@techtalks/orders/feat-current-orders": [
+        "libs/orders/feat-current-orders/src/index.ts"
+      ],
+      "@techtalks/design-system/forms": [
+        "libs/shared/design-system/forms/src/index.ts"
+      ],
+      "@techtalks/orders/order-entities": [
+        "libs/orders/order-entities/src/index.ts"
+      ],
+      "@techtalks/products/product-detail": [
+        "libs/products/feat-product-detail/src/index.ts"
+      ],
+      "@techtalks/products/product-list": [
+        "libs/products/feat-product-list/src/index.ts"
+      ],
+      "@techtalks/orders/ui-order-detail": [
+        "libs/orders/ui-order-detail/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
